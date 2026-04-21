@@ -15,9 +15,9 @@ const profile = {
   available: true,
 
   stats: [
-    { num: "1", label: "Tahun Pengalaman" },
-    { num: "4+", label: "Proyek Selesai" },
-    { num: "2+", label: "Klien Puas" },
+    { num: "<1", label: "Tahun Pengalaman" },
+    { num: "2", label: "Proyek Selesai" },
+    { num: "2", label: "Klien Puas" },
   ],
 
   techStack: [

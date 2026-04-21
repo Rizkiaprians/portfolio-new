@@ -1,9 +1,20 @@
 .section { padding: 120px 60px; }
 .title { font-family: var(--font-display); font-size: clamp(36px,5vw,64px); font-weight: 900; letter-spacing: -2px; margin-bottom: 60px; line-height: 1.05; }
-.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.grid {
+  --cardMax: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  max-width: calc(3 * var(--cardMax) + 48px);
+  margin: 0 auto;
+}
 .card {
   background: var(--surface); border: 1px solid var(--border);
   padding: 36px; border-radius: 8px; transition: all 0.3s; cursor: default; position: relative; overflow: hidden;
+  flex: 1 1 520px;
+  max-width: var(--cardMax);
 }
 .card::before {
   content: ''; position: absolute; inset: 0;
@@ -20,7 +31,7 @@
 .barLabel { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-bottom: 8px; font-family: var(--font-mono); }
 .barTrack { height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
 .barFill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 1.5s cubic-bezier(0.4,0,0.2,1); }
-@media (max-width: 900px) { .section { padding: 80px 24px; } .grid { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .section { padding: 80px 24px; } }
 @media (max-width: 640px) {
   .section { padding: 64px 16px; }
   .title { margin-bottom: 40px; letter-spacing: -1px; }

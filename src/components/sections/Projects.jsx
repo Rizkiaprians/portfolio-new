@@ -29,7 +29,7 @@ export default function Projects() {
   return (
     <section className={styles.section} id="projects">
       <SectionLabel>Portofolio</SectionLabel>
-      <h2 className={styles.title}>Proyek<br />terpilih</h2>
+      <h2 className={styles.title}>Project yang saya kerjakan</h2>
       <div className={styles.grid}>
         {projectsData.map((p) => <ProjectCard key={p.id} project={p} />)}
       </div>

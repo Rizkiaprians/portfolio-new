@@ -28,7 +28,7 @@ export default function Hero() {
         </p>
 
         <div className={styles.cta}>
-          <Button variant="primary" onClick={() => scrollTo("projects")}>Lihat Proyek</Button>
+          <Button variant="primary" onClick={() => scrollTo("projects")}>Lihat Project</Button>
           <Button variant="secondary" onClick={() => scrollTo("contact")}>Hubungi Saya</Button>
         </div>
 
