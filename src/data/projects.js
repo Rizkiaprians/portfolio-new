@@ -24,16 +24,16 @@ const projects = [
     bg: "linear-gradient(135deg, #0f0c29 0%, #302b63 100%)",
     featured: false,
   },
-  {
-    id: 3,
-    num: "03",
-    name: "TaskMind App",
-    desc: "Aplikasi manajemen tugas dengan fitur kolaborasi tim, Kanban board, dan integrasi kalender.",
-    tags: ["React Native", "Firebase", "Redux"],
-    emoji: "✅",
-    bg: "linear-gradient(135deg, #1a0533 0%, #2d1b4e 100%)",
-    featured: false,
-  },
+  // {
+  //   id: 3,
+  //   num: "03",
+  //   name: "TaskMind App",
+  //   desc: "Aplikasi manajemen tugas dengan fitur kolaborasi tim, Kanban board, dan integrasi kalender.",
+  //   tags: ["React Native", "Firebase", "Redux"],
+  //   emoji: "✅",
+  //   bg: "linear-gradient(135deg, #1a0533 0%, #2d1b4e 100%)",
+  //   featured: false,
+  // },
 ];
 
 export default projects;
