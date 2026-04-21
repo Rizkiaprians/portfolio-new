@@ -7,8 +7,10 @@ const skills = [
     title: "Frontend Development",
     desc: "React, Next.js, TypeScript, Tailwind CSS, animasi & UI interaktif.",
     items: [
-      { label: "JavaScript / React", level: 70 },
-      { label: "CSS ",  level: 70 },
+      { label: "JavaScript", level: 70 },
+      { label: "HTML", level: 80 },
+      { label: "React", level: 60 },
+      { label: "CSS",  level: 70 },
       { label: "Tailwind CSS", level: 50 },
     ],
   },

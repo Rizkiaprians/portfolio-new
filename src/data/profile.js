@@ -21,16 +21,15 @@ const profile = {
   ],
 
   techStack: [
+    { name: "HTML", icon: "https://skillicons.dev/icons?i=html" },
+    { name: "CSS", icon: "https://skillicons.dev/icons?i=css" },
     { name: "JavaScript", icon: "https://skillicons.dev/icons?i=js" },
     { name: "Tailwind CSS", icon: "https://skillicons.dev/icons?i=tailwind" },
     { name: "Bootstrap", icon: "https://skillicons.dev/icons?i=bootstrap" },
     { name: "PHP", icon: "https://skillicons.dev/icons?i=php" },
     { name: "Laravel", icon: "https://skillicons.dev/icons?i=laravel" },
     { name: "React", icon: "https://skillicons.dev/icons?i=react" },
-    { name: "Next.js", icon: "https://skillicons.dev/icons?i=nextjs" },
-    { name: "Node.js", icon: "https://skillicons.dev/icons?i=nodejs" },
     { name: "MySQL", icon: "https://skillicons.dev/icons?i=mysql" },
-    { name: "Figma", icon: "https://skillicons.dev/icons?i=figma" },
   ],
 
   contact: {
