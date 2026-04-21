@@ -20,7 +20,8 @@ const skills = [
     title: "Backend Development",
     desc: "Node.js, Express, REST API, GraphQL, database design & optimasi.",
     items: [
-      { label: "PHP/Laravel", level: 60 },
+      { label: "PHP", level: 60 },
+      { label: "Laravel", level: 50 },
       { label: "MySQL",   level: 70 },
     ],
   },
