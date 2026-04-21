@@ -6,7 +6,7 @@ const experience = [
     period: "2025",
     role: "Frontend Developer",
     company: "SMP Putra Bangsa",
-    desc: "Membuat LMS (Learning Management System) untuk sekolah dengan fitur manajemen kelas, materi pembelajaran, dan ujian online. Teknologi yang digunakan: Bootstrap,PHP, CodeIgniter, MySQL.",
+    desc: "Membuat LMS (Learning Management System) untuk sekolah dengan fitur Materi pembelajaran, Room meeting, Bank soal, ujian, Forum Tugas, Cetak, Presensi, Pengumuman, dan Manajemen user. Teknologi yang digunakan: Bootstrap,PHP, CodeIgniter, MySQL.",
   },
 ];
 
