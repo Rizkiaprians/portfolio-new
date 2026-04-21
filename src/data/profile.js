@@ -4,10 +4,10 @@
 const profile = {
   name: "Rizki Apriansyah",
   nickname: "Rizki",
-  title: "web developer",
+  title: "junior web developer",
   tagline: "Saya merancang & membangun web modern.",
   bio: [
-    "Saya adalah Web Developer dengan pengalaman 1 tahun membangun dan mengembangkan aplikasi web yang fokus pada performa, tampilan rapi, dan kemudahan digunakan.",
+    "Saya adalah Junior Web Developer dengan pengalaman kurang dari 1 tahun membangun dan mengembangkan aplikasi web yang fokus pada performa, tampilan rapi, dan kemudahan digunakan.",
     "Saya terbiasa mengerjakan fitur dari tahap desain antarmuka hingga integrasi backend, serta memastikan setiap bagian berjalan stabil dan mudah dipelihara.",
     "Saat ini saya terus memperdalam kemampuan di pengembangan web modern sambil aktif mengerjakan proyek nyata untuk menambah kualitas teknis dan pemahaman kebutuhan user.",
   ],
